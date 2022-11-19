@@ -7,6 +7,6 @@ const app = express();
 app.use("/api/v1", router);
 app.use(cors());
 
-app.listen(3000, (req, res) => {
+app.listen(3000, () => {
   console.log("Server Start");
 });
