@@ -1,0 +1,36 @@
+{
+  "name": "todo-list-study",
+  "version": "1.0.0",
+  "description": "javascript todo list study",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/app.js --delay 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/depromeet/todo-list-study-js.git"
+  },
+  "keywords": [
+    "js",
+    "todo",
+    "list"
+  ],
+  "author": "depromeet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/depromeet/todo-list-study-js/issues"
+  },
+  "homepage": "https://github.com/depromeet/todo-list-study-js#readme",
+  "dependencies": {
+    "@babel/node": "^7.20.2",
+    "core-js": "^3.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2"
+  }
+}
